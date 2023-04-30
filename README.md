@@ -19,7 +19,7 @@
 ---
 
 
-![Data cleaning](images\cleaning_data.jpeg)
+![Data cleaning]('images/cleaning_data.jpeg')
 
 He creado una funcion de limpieza automatica para que:
     La informacion aparezca en minuscula con la primera letra en mayuscula.
@@ -57,7 +57,7 @@ La conclusion es que necesitariamos rellenar el resto del inventario a mano, una
 
 El resultado final es el siguiente: :boom: :boom:
 
-![Resultado Final](images\reverse_engineer.jpg)
+![Resultado Final](images/reverse_engineer.jpg)
 
 
 
