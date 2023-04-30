@@ -1,12 +1,12 @@
-## Proyecto de limpieza y transformación de datos
+# Proyecto de limpieza y transformación de datos
 
-# Este proyecto tiene tres pasos.
+## Este proyecto tiene tres pasos.
     
     Limpieza de 7 csv.
     Crear base de datos SQL
     Consultas en la base de datos en SQL
 
-# Distribucion:
+## Distribucion:
     
     code: Jupyter Notebook with the data cleaning and export csv code.
     data: Original csv
@@ -19,7 +19,7 @@
 ---
 
 
-![Data cleaning]('images/cleaning_data.jpeg')
+![Data cleaning](images/cleaning_data.jpeg)
 
 He creado una funcion de limpieza automatica para que:
     La informacion aparezca en minuscula con la primera letra en mayuscula.
@@ -30,15 +30,14 @@ Modificación de los DataFrame para adecuar la informacion a la base de datos.
 
 ## Paso 2: Base de datos en SQL
 
-
 ---
 
-# Relacion actor-film
+### Relacion actor-film
 
 Usar old_hdd como nexo entre actor actor y film para almacenar las foreign key.
 Añadir el genero de la pelicula a film desde category
 
-# Relacion film-rental
+### Relacion film-rental
 
 Inicialmente inventory era la relacion con rental, he añadido toda la informacion en rental.
 De esta relacion he sacado las siguientes conclusiones:
@@ -61,7 +60,7 @@ El resultado final es el siguiente: :boom: :boom:
 
 
 
-## Paso 3: Querys en SQL
+# Paso 3: Querys en SQL
 
 Query 1 - Actor con mas películas
 
